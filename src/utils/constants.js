@@ -16,3 +16,19 @@ export const userMenuList = [
 	{ id: 2, name: "My Cart", count: 1, iconPath: "/images/icons/cart-icon.png" },
 	{ id: 3, name: "My Account", iconPath: "/images/icons/user-icon.png" },
 ];
+
+export const servicesMenuList = [
+	{ id: 1, name: "Buffet", image: "/images/services/buffet.svg" },
+	{ id: 2, name: "Catering", image: "/images/services/catering.svg" },
+	{ id: 3, name: "Deliver Service", image: "/images/services/delivery.svg" },
+	{ id: 4, name: "Outdoor Area", image: "/images/services/outdoor.svg" },
+	{ id: 5, name: "Parking Spaces", image: "/images/services/parking.svg" },
+	{ id: 6, name: "Free Wifi", image: "/images/services/wifi.svg" },
+	{ id: 7, name: "Barrier-free", image: "/images/services/barrier-free.svg" },
+	{
+		id: 8,
+		name: "Private Events",
+		image: "/images/services/private-events.svg",
+	},
+	{ id: 9, name: "Takeaway Food", image: "/images/services/takeaway.svg" },
+];

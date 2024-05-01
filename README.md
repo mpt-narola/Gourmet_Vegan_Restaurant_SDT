@@ -2,6 +2,4 @@
 
 ### Target Audience:
 
-Food enthusiasts and health-conscious diners.
-
-- Currently, two official plugins are available:
+- Food enthusiasts and health-conscious diners.

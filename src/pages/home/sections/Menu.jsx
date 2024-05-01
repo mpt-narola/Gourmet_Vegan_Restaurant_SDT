@@ -1,4 +1,4 @@
-import FoodItemMenu from "../../../components/foodItemMenu";
+import FoodItemMenu from "../../../components/FoodItemMenu";
 import { foodMenuTypeList } from "../../../utils/constants";
 
 const Menu = () => {

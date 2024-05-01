@@ -1,0 +1,8 @@
+.sidebar {
+	transition: 0.3s ease-out;
+}
+
+.content-area.close .sidebar {
+	margin-left: -384px;
+	transition: 0.3s ease-in;
+}

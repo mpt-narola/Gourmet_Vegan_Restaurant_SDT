@@ -75,3 +75,49 @@ export const specialDishList = [
 		isFavorite: false,
 	},
 ];
+
+export const foodMenuTypeList = [
+	{ id: 1, name: "Starters", isActive: true },
+	{ id: 2, name: "Drinks", isActive: false },
+	{ id: 3, name: "Main Course", isActive: false },
+	{ id: 4, name: "Dessert", isActive: false },
+];
+
+export const foodMenuItemsList = [
+	{
+		id: 1,
+		price: "$80",
+		name: "Southern Fried Pickles....",
+		description: "Crispy spears with zesty ranch.",
+	},
+	{
+		id: 2,
+		price: "$69",
+		name: "Buffalo chicken sliders",
+		description: "6pcs of chef's choice nigiri, Miso Soup",
+	},
+	{
+		id: 3,
+		price: "$35",
+		name: "Salmon Assortment",
+		description: "4pcs King Salmon, 4pcs Faroe Salmon",
+	},
+	{
+		id: 4,
+		price: "$32",
+		name: "Hamachi Assortment",
+		description: "2pcs Hiramasa, 2 pcs Hamachi, 2pcs Shima Ay",
+	},
+	{
+		id: 5,
+		price: "$32",
+		name: "Hamachi Assortment",
+		description: "2pcs Hiramasa, 2 pcs Hamachi, 2pcs Shima Ay",
+	},
+	{
+		id: 6,
+		price: "$32",
+		name: "Hamachi Assortment",
+		description: "2pcs Hiramasa, 2 pcs Hamachi, 2pcs Shima Ay",
+	},
+];

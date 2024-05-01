@@ -1,5 +1,6 @@
 import AboutChef from "./sections/AboutChef";
 import Hero from "./sections/Hero";
+import Menu from "./sections/Menu";
 import Services from "./sections/Services";
 import SpecialDish from "./sections/SpecialDish";
 
@@ -10,6 +11,7 @@ const HomePage = () => {
 			<AboutChef />
 			<Services />
 			<SpecialDish />
+			<Menu />
 		</div>
 	);
 };

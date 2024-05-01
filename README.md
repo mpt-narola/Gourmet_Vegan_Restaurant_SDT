@@ -1,4 +1,4 @@
-# Gourment Vegan Restaurant
+# Gourmet Vegan Restaurant
 
 ### Target Audience:
 

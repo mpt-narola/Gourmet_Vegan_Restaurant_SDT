@@ -24,6 +24,12 @@
 	display: none; /* Safari and Chrome */
 }
 
+@font-face {
+	font-family: "Healing Again Demo";
+	src: local("healing-again-demo.regular"),
+		url("./font/healing-again-demo.regular.ttf") format("truetype");
+}
+
 /* a {
 	font-weight: 500;
 	color: #646cff;

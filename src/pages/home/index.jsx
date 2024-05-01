@@ -1,6 +1,7 @@
 import AboutChef from "./sections/AboutChef";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
+import SpecialDish from "./sections/SpecialDish";
 
 const HomePage = () => {
 	return (
@@ -8,6 +9,7 @@ const HomePage = () => {
 			<Hero />
 			<AboutChef />
 			<Services />
+			<SpecialDish />
 		</div>
 	);
 };

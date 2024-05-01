@@ -32,3 +32,46 @@ export const servicesMenuList = [
 	},
 	{ id: 9, name: "Takeaway Food", image: "/images/services/takeaway.svg" },
 ];
+
+export const specialDishList = [
+	{
+		id: 1,
+		image: "/images/food-plate.png",
+		name: "Mexican tacos with beef in tomato sauce and salsa.",
+		description:
+			"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		price: "$29.99",
+		ratings: 3,
+		isFavorite: false,
+	},
+	{
+		id: 2,
+		image: "/images/food-plate.png",
+		name: "French fries with beef and sauce.",
+		description:
+			"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		price: "$19.50",
+		ratings: 5,
+		isFavorite: true,
+	},
+	{
+		id: 3,
+		image: "/images/food-plate.png",
+		name: "Mexican tacos with beef in tomato sauce and salsa.",
+		description:
+			"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		price: "$29.99",
+		ratings: 4,
+		isFavorite: false,
+	},
+	{
+		id: 4,
+		image: "/images/food-plate.png",
+		name: "French fries with beef and salsa.",
+		description:
+			"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+		price: "$21.00",
+		ratings: 5,
+		isFavorite: false,
+	},
+];

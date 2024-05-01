@@ -24,8 +24,8 @@ const Navbar = () => {
 	});
 
 	return (
-		<div className={`bg-secondary h-14 sticky z-10 ${visible ? "top-0" : ""}`}>
-			<div className="w-11/12 max-w-7xl mx-auto flex justify-between items-center py-2">
+		<div className={`bg-secondary h-14 sticky z-30 ${visible ? "-top-1" : ""}`}>
+			<div className="w-11/12 max-w-7xl 2xl:max-w-[100rem] mx-auto flex justify-between items-center py-2">
 				<div className="flex items-center gap-2">
 					<div
 						className={`md:hidden content-area ${

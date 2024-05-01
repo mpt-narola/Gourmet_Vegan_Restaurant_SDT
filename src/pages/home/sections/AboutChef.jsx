@@ -8,11 +8,11 @@ const AboutChef = () => {
 					className="h-24 w-24 md:h-32 md:w-32 xl:h-40 xl:w-40"
 				/>
 			</div>
-			<div className="w-11/12 max-w-[88rem] h-full pt-16 sm:pt-0 mx-auto flex flex-col sm:flex-row items-center justify-between">
+			<div className="w-11/12 max-w-[88rem] 2xl:max-w-[100rem] h-full pt-16 sm:pt-0 mx-auto flex flex-col sm:flex-row items-center justify-between">
 				<img
 					src="/images/about-1.png"
 					alt="about"
-					className="h-1/2 md:h-2/3 lg:h-1/2 xl:h-2/3"
+					className="h-1/2 md:h-2/3 lg:h-1/2 xl:h-2/3 2xl:h-1/2"
 				/>
 				<div className="max-w-xl lg:max-w-md xl:max-w-2xl p-10">
 					<h5 className="font-semibold mb-5">About Chef and Kitchen</h5>

@@ -23,7 +23,7 @@ const Services = () => {
 
 	return (
 		<div className="w-full mt-32 sm:mt-0">
-			<div className="w-11/12 max-w-[88rem] mx-auto py-10 flex flex-col gap-10 items-center bg-primary text-white border-8 border-secondary relative">
+			<div className="w-11/12 max-w-[88rem] 2xl:max-w-[100rem] mx-auto py-10 flex flex-col gap-10 items-center bg-primary text-white border-8 border-secondary relative">
 				<h2 className="text-3xl lg:text-4xl xl:text-5xl font-secondary">
 					Our Best Services
 				</h2>

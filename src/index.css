@@ -79,3 +79,7 @@ a:hover {
 		@apply bg-secondary text-primary border-secondary hover:border-primary;
 	}
 }
+
+h2 {
+	line-height: 1.5 !important;
+}

@@ -9,7 +9,7 @@ const Hero = () => {
 		>
 			<div className="w-11/12 max-w-[88rem] 2xl:max-w-[100rem] h-[calc(100vh-56px)] mx-auto flex items-center">
 				<div className="md:w-4/5 lg:w-3/5">
-					<h1 className="text-4xl lg:text-5xl xl:text-7xl font-secondary mb-5">
+					<h1 className="text-4xl lg:text-5xl xl:text-7xl font-secondary">
 						Welcome To The{" "}
 						<span className="text-3xl lg:text-4xl xl:text-5xl">
 							Gourmet Vegan Restaurant

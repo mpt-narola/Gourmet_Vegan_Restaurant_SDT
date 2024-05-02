@@ -59,7 +59,7 @@ a:hover {
 	} */
 	body {
 		@apply m-0 min-w-[350px] min-h-screen;
-		@apply bg-secondary bg-opacity-10;
+		@apply bg-secondary bg-opacity-15;
 	}
 
 	a {

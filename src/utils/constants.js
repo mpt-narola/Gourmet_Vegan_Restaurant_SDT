@@ -20,7 +20,7 @@ export const userMenuList = [
 export const servicesMenuList = [
 	{ id: 1, name: "Buffet", image: "/images/services/buffet.svg" },
 	{ id: 2, name: "Catering", image: "/images/services/catering.svg" },
-	{ id: 3, name: "Deliver Service", image: "/images/services/delivery.svg" },
+	{ id: 3, name: "Delivery Service", image: "/images/services/delivery.svg" },
 	{ id: 4, name: "Outdoor Area", image: "/images/services/outdoor.svg" },
 	{ id: 5, name: "Parking Spaces", image: "/images/services/parking.svg" },
 	{ id: 6, name: "Free Wifi", image: "/images/services/wifi.svg" },
@@ -120,4 +120,12 @@ export const foodMenuItemsList = [
 		name: "Hamachi Assortment",
 		description: "2pcs Hiramasa, 2 pcs Hamachi, 2pcs Shima Ay",
 	},
+];
+
+export const galleryList = [
+	{ id: 1, imagePath: "/images/gallery/pic-1.png" },
+	{ id: 2, imagePath: "/images/gallery/pic-2.png" },
+	{ id: 3, imagePath: "/images/gallery/pic-3.png" },
+	{ id: 4, imagePath: "/images/gallery/pic-4.png" },
+	{ id: 5, imagePath: "/images/gallery/pic-5.png" },
 ];

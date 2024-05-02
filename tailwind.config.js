@@ -6,10 +6,11 @@ export default {
 			colors: {
 				primary: "#0B1928",
 				secondary: "#DDBC7A",
+				muted: "rgba(255,255,255,0.1)",
 			},
 			fontFamily: {
 				primary: "Wix Madefor Display",
-				secondary: "Lugrasimo",
+				secondary: "Healing Again Demo",
 			},
 		},
 	},

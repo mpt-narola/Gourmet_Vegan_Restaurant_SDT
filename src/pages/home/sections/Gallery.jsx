@@ -1,4 +1,6 @@
 import { useRef } from "react";
+import { FaInstagram } from "react-icons/fa";
+
 import { galleryList } from "../../../utils/constants";
 import Draggable from "../../../components/Draggable";
 
@@ -31,12 +33,7 @@ const Gallery = () => {
 								<div className="transition-all absolute top-0 h-full w-full transform ease-in duration-300 opacity-0 group-hover:opacity-100 p-10">
 									<div className="border-2 border-secondary h-full w-full flex justify-center items-center">
 										<div className="flex flex-col gap-3 justify-center items-center">
-											<img
-												src="/images/instagram-logo.svg"
-												alt="icon"
-												height={24}
-												width={24}
-											/>
+											<FaInstagram className="text-white" fontSize={28} />
 											<p className="text-white text-sm">@GV_Restaurant</p>
 										</div>
 									</div>

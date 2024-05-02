@@ -1,4 +1,6 @@
 import { useRef, useState } from "react";
+import { GoChevronLeft, GoChevronRight } from "react-icons/go";
+
 import { servicesMenuList } from "../../../utils/constants";
 
 const Services = () => {
@@ -35,11 +37,7 @@ const Services = () => {
 						}}
 						disabled={arrowDisable}
 					>
-						<img
-							src="/images/icons/chevron-left.svg"
-							alt="right"
-							className="h-5 w-5"
-						/>
+						<GoChevronLeft fontSize={24} />
 					</button>
 					<div
 						className="flex gap-5 w-8/12 sm:w-10/12 mx-auto overflow-hidden"
@@ -63,11 +61,7 @@ const Services = () => {
 							handleHorizantalScroll(elementRef.current, 25, 100, 10);
 						}}
 					>
-						<img
-							src="/images/icons/chevron-right.svg"
-							alt="right"
-							className="h-5 w-5"
-						/>
+						<GoChevronRight fontSize={24} />
 					</button>
 				</div>
 			</div>

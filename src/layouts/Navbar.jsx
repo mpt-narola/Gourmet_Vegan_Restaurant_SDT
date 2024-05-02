@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FaBars } from "react-icons/fa";
 
 import Sidebar from "./Sidebar";
 import { appMenuList, userMenuList } from "../utils/constants";
@@ -36,7 +37,7 @@ const Navbar = () => {
 							className="w-fit"
 							onClick={() => setShowSidebar((prev) => !prev)}
 						>
-							<img src="/images/icons/hamburger-icon.svg" alt="menu" />
+							<FaBars fontSize={28} className="text-primary" />
 						</div>
 						<Sidebar setShowSidebar={setShowSidebar} />
 					</div>

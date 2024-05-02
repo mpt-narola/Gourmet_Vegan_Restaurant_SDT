@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import { RiCloseLargeFill } from "react-icons/ri";
+
 import { appMenuList } from "../utils/constants";
 
 const Sidebar = ({ setShowSidebar = () => {} }) => {
@@ -12,7 +14,7 @@ const Sidebar = ({ setShowSidebar = () => {} }) => {
 						<img src="/images/logo.svg" alt="logo" />
 					</div>
 					<div onClick={() => setShowSidebar(false)}>
-						<img src="/images/icons/close-icon.svg" alt="close" />
+						<RiCloseLargeFill fontSize={24} />
 					</div>
 				</div>
 				<ul className="flex flex-col gap-3 items-center my-10">

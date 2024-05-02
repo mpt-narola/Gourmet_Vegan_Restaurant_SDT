@@ -1,25 +1,18 @@
 import PropTypes from "prop-types";
+import { FaRegStar, FaStar } from "react-icons/fa";
 
 const Ratings = ({ ratingValue = 0 }) => {
 	return (
-		<div className="flex">
+		<div className="flex items-center text-secondary">
 			{Array(ratingValue)
 				.fill("")
 				.map((_, i) => (
-					<img
-						key={`rating-filled-${i}`}
-						src="/images/icons/star-icon-filled.svg"
-						alt="icon"
-					/>
+					<FaStar key={`rating-filled-${i}`} fontSize={24} />
 				))}
 			{Array(5 - ratingValue)
 				.fill("")
 				.map((_, i) => (
-					<img
-						key={`rating-empty-${i}`}
-						src="/images/icons/star-icon.svg"
-						alt="icon"
-					/>
+					<FaRegStar key={`rating-empty-${i}`} fontSize={24} />
 				))}
 		</div>
 	);

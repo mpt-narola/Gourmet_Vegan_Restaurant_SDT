@@ -76,7 +76,7 @@ a:hover {
 	}
 
 	button.primary {
-		@apply bg-secondary text-primary border-secondary hover:border-primary;
+		@apply bg-secondary text-primary border-secondary hover:bg-primary hover:text-secondary;
 	}
 }
 

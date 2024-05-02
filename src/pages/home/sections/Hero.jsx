@@ -1,3 +1,5 @@
+import { GrLocation } from "react-icons/gr";
+
 const Hero = () => {
 	return (
 		<div
@@ -24,7 +26,7 @@ const Hero = () => {
 					</p>
 					<div className="text-sm lg:text-base flex gap-2 lg:gap-7">
 						<button className="primary flex items-center gap-1">
-							<img src="/images/icons/location-icon.svg" alt="icon" />
+							<GrLocation fontSize={20} />
 							Book Your Table
 						</button>
 						<button>Explore Our Menu</button>

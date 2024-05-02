@@ -47,7 +47,7 @@ const Navbar = () => {
 						{appMenuList.map((item) => (
 							<li
 								key={"app-menu-item-" + item.id}
-								className={`${
+								className={`cursor-pointer hover:opacity-75 ${
 									item.isActive ? "border-b-2 border-b-primary" : "opacity-50"
 								}`}
 							>
@@ -61,7 +61,9 @@ const Navbar = () => {
 						{userMenuList.map((item) => (
 							<li
 								key={"user-menu-item-" + item.id}
-								className={"xl:opacity-50 flex items-center gap-2"}
+								className={
+									"xl:opacity-50 cursor-pointer xl:hover:opacity-75 flex items-center gap-2"
+								}
 							>
 								<img src={item.iconPath} alt="icon" />
 								<div className="hidden xl:block">

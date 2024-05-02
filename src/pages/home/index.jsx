@@ -1,4 +1,5 @@
 import AboutChef from "./sections/AboutChef";
+import Footer from "./sections/Footer";
 import Gallery from "./sections/Gallery";
 import Hero from "./sections/Hero";
 import Menu from "./sections/Menu";
@@ -16,6 +17,7 @@ const HomePage = () => {
 			<Menu />
 			<Gallery />
 			<Newsletter />
+			<Footer />
 		</div>
 	);
 };

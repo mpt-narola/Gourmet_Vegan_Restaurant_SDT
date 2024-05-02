@@ -129,3 +129,31 @@ export const galleryList = [
 	{ id: 4, imagePath: "/images/gallery/pic-4.png" },
 	{ id: 5, imagePath: "/images/gallery/pic-5.png" },
 ];
+
+export const quickLinksList = [
+	{ id: 1, name: "Home" },
+	{ id: 2, name: "About Us" },
+	{ id: 3, name: "Restaurant" },
+	{ id: 4, name: "Blog" },
+	{ id: 5, name: "Contact Us" },
+	{ id: 6, name: "Privacy Policy" },
+	{ id: 7, name: "Terms and Condition" },
+];
+
+export const openingHoursList = [
+	{ id: 1, name: "Monday", time: "07:00-18:00" },
+	{ id: 2, name: "Tuesday", time: "07:00-18:00" },
+	{ id: 3, name: "Wednesday", time: "07:00-18:00" },
+	{ id: 4, name: "Thursday", time: "07:00-18:00" },
+	{ id: 5, name: "Friday", time: "07:00-17:30" },
+	{ id: 6, name: "Saturday to Sunday", time: "08:00-16:00" },
+];
+
+export const paymentIconList = [
+	{ id: 1, iconPath: "/images/icons/payment-1.svg" },
+	{ id: 2, iconPath: "/images/icons/payment-2.svg" },
+	{ id: 3, iconPath: "/images/icons/payment-3.svg" },
+	{ id: 4, iconPath: "/images/icons/payment-4.svg" },
+	{ id: 5, iconPath: "/images/icons/payment-5.svg" },
+	{ id: 6, iconPath: "/images/icons/payment-6.svg" },
+];

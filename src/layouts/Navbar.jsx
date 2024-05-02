@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FaBars } from "react-icons/fa";
 
 import Sidebar from "./Sidebar";
 import { appMenuList, userMenuList } from "../utils/constants";
@@ -24,8 +25,8 @@ const Navbar = () => {
 	});
 
 	return (
-		<div className={`bg-secondary h-14 sticky z-10 ${visible ? "top-0" : ""}`}>
-			<div className="w-11/12 max-w-7xl mx-auto flex justify-between items-center py-2">
+		<div className={`bg-secondary h-14 sticky z-30 ${visible ? "-top-1" : ""}`}>
+			<div className="w-11/12 max-w-7xl 2xl:max-w-[100rem] mx-auto flex justify-between items-center py-2">
 				<div className="flex items-center gap-2">
 					<div
 						className={`md:hidden content-area ${
@@ -36,7 +37,7 @@ const Navbar = () => {
 							className="w-fit"
 							onClick={() => setShowSidebar((prev) => !prev)}
 						>
-							<img src="/images/icons/hamburger-icon.svg" alt="menu" />
+							<FaBars fontSize={28} className="text-primary" />
 						</div>
 						<Sidebar setShowSidebar={setShowSidebar} />
 					</div>
@@ -47,7 +48,7 @@ const Navbar = () => {
 						{appMenuList.map((item) => (
 							<li
 								key={"app-menu-item-" + item.id}
-								className={`${
+								className={`cursor-pointer hover:opacity-75 ${
 									item.isActive ? "border-b-2 border-b-primary" : "opacity-50"
 								}`}
 							>
@@ -61,7 +62,9 @@ const Navbar = () => {
 						{userMenuList.map((item) => (
 							<li
 								key={"user-menu-item-" + item.id}
-								className={"xl:opacity-50 flex items-center gap-2"}
+								className={
+									"xl:opacity-50 cursor-pointer xl:hover:opacity-75 flex items-center gap-2"
+								}
 							>
 								<img src={item.iconPath} alt="icon" />
 								<div className="hidden xl:block">

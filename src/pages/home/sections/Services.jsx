@@ -48,12 +48,12 @@ const Services = () => {
 						{servicesMenuList.map((item) => (
 							<div
 								key={`service-menu-item-${item.id}`}
-								className="w-32 flex flex-col items-center text-center gap-3 hover:font-semibold"
+								className="w-32 flex flex-col items-center text-center gap-3 group cursor-pointer"
 							>
-								<div className="h-24 w-24 bg-white flex justify-center items-center hover:border-4 hover:border-secondary hover:bg-primary">
+								<div className="h-24 w-24 bg-white flex justify-center items-center group-hover:border-4 group-hover:border-secondary group-hover:bg-primary">
 									<img src={item.image} alt="icon" className="h-14 w-14" />
 								</div>
-								<p>{item.name}</p>
+								<p className="group-hover:text-secondary">{item.name}</p>
 							</div>
 						))}
 					</div>

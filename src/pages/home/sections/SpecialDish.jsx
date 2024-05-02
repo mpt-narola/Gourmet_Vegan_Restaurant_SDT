@@ -16,12 +16,12 @@ const SpecialDish = () => {
 					{specialDishList.map((item) => (
 						<div
 							key={`special-list-item-${item.id}`}
-							className="bg-white shadow-lg p-4 flex flex-col justify-between w-[48%] lg:w-[23%]"
+							className="bg-white shadow-lg p-4 flex flex-col justify-between w-[48%] lg:w-[23%] group"
 						>
 							<div className="relative">
 								<div
 									className={`absolute right-0 z-10 p-2 rounded-full border-2 border-secondary cursor-pointer ${
-										item.isFavorite ? "" : "hover:bg-secondary"
+										item.isFavorite ? "" : "group-hover:bg-secondary"
 									}`}
 								>
 									<img
@@ -42,10 +42,14 @@ const SpecialDish = () => {
 								<p className="my-2 hidden md:block">{item.description}</p>
 							</div>
 							<div className="mt-3">
-								<Ratings ratingValue={item.ratings} />
 								<div className="flex flex-col md:flex-row lg:flex-col xl:flex-row gap-1 justify-between items-center mt-2">
 									<p className="text-xl md:text-2xl font-bold">{item.price}</p>
-									<button className="primary">Add to cart</button>
+									<button className="primary hidden group-hover:block">
+										Add to cart
+									</button>
+									<div className="group-hover:hidden h-[42px] grid">
+										<Ratings ratingValue={item.ratings} />
+									</div>
 								</div>
 							</div>
 						</div>

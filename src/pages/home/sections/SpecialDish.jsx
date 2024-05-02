@@ -3,8 +3,8 @@ import { specialDishList } from "../../../utils/constants";
 
 const SpecialDish = () => {
 	return (
-		<div className="h-screen mt-44 lg:mt-16 xl:mt-0">
-			<div className="w-11/12 max-w-[88rem] 2xl:max-w-[100rem] h-[calc(100vh-56px)] mx-auto flex flex-col items-center justify-center">
+		<div className="min-h-screen h-max py-10">
+			<div className="w-11/12 max-w-[88rem] 2xl:max-w-[100rem] min-h-[calc(100vh-56px)] mx-auto flex flex-col items-center justify-center">
 				<h2 className="text-3xl lg:text-4xl xl:text-5xl font-secondary my-5">
 					Our Special Dish
 				</h2>

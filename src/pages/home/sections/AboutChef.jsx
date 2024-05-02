@@ -16,7 +16,7 @@ const AboutChef = () => {
 				/>
 				<div className="max-w-xl lg:max-w-md xl:max-w-2xl p-10">
 					<h5 className="font-semibold mb-5">About Chef and Kitchen</h5>
-					<h2 className="text-3xl lg:text-4xl xl:text-5xl font-secondary">
+					<h2 className="text-3xl lg:text-4xl xl:text-5xl leading-relaxed font-secondary">
 						The Health Food For Wealthy Mood
 					</h2>
 					<p className="my-5 xl:my-8 xl:leading-8 max-w-2xl">

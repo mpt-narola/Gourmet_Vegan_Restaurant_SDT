@@ -8,18 +8,18 @@ const AboutChef = () => {
 					className="h-24 w-24 md:h-32 md:w-32 xl:h-40 xl:w-40"
 				/>
 			</div>
-			<div className="w-11/12 max-w-[88rem] 2xl:max-w-[100rem] h-full pt-16 sm:pt-0 mx-auto flex flex-col sm:flex-row items-center justify-between">
+			<div className="container w-11/12 sm:w-10/12 xl:w-10/12 h-full pt-16 sm:pt-0 mx-auto text-primary flex flex-col sm:flex-row items-center justify-between">
 				<img
 					src="/images/about-1.png"
 					alt="about"
-					className="h-1/2 md:h-2/3 lg:h-1/2 xl:h-2/3 2xl:h-1/2"
+					className="h-1/2 md:h-96 lg:h-96 xl:h-96 2xl:h-[30rem]"
 				/>
-				<div className="max-w-xl lg:max-w-md xl:max-w-2xl p-10">
+				<div className="max-w-xl lg:max-w-md xl:max-w-2xl p-2 sm:p-10">
 					<h5 className="font-semibold mb-5">About Chef and Kitchen</h5>
-					<h2 className="text-3xl lg:text-4xl xl:text-5xl leading-relaxed font-secondary">
+					<h2 className="text-3xl lg:text-4xl 2xl:text-[2.5rem] leading-relaxed font-secondary font-semibold">
 						The Health Food For Wealthy Mood
 					</h2>
-					<p className="my-5 xl:my-8 xl:leading-8 max-w-2xl">
+					<p className="my-2 md:my-5 xl:mb-8 xl:my-2 xl:leading-6 max-w-2xl">
 						It is a long established fact that a reader will be distracted by
 						the readable content of a page when looking at its layout. The point
 						of using Lorem Ipsum is that it has a more-or-less normal
@@ -27,7 +27,7 @@ const AboutChef = () => {
 					</p>
 					<button className="primary">Learn More</button>
 				</div>
-				<div className="hidden lg:flex flex-col items-end gap-10 h-fit">
+				<div className="hidden xl:flex flex-col shrink-0 items-end gap-10 h-fit">
 					<img
 						src="/images/about-2.png"
 						alt="about"

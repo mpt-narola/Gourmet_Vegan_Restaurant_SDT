@@ -10,7 +10,7 @@ const Gallery = () => {
 	return (
 		<div className="min-h-screen h-max py-10">
 			<div className="min-h-[calc(100vh-56px)] w-screen mx-auto flex flex-col items-center justify-evenly">
-				<h2 className="text-3xl md:text-4xl xl:text-5xl font-secondary">
+				<h2 className="text-3xl lg:text-4xl 2xl:text-[2.5rem] font-secondary text-primary">
 					Gallery
 				</h2>
 				<Draggable rootClass={"drag"}>

@@ -19,12 +19,12 @@ const Footer = () => {
 		<div
 			className="min-h-80 lg:min-h-96 xl:min-h-[35rem] flex flex-col text-white"
 			style={{
-				background: "no-repeat left / cover url('/images/footer-bg.png')",
+				background: "no-repeat center / cover url('/images/footer-bg.png')",
 				// backgroundSize: "100% 100vh",
 			}}
 		>
-			<div className="w-11/12 grow max-w-[88rem] 2xl:max-w-[100rem] mx-auto flex items-center justify-center py-7">
-				<div className="flex flex-wrap md:justify-evenly ld:justify-between gap-7 w-full">
+			<div className="grow container w-11/12 sm:w-10/12 xl:w-10/12 mx-auto flex items-center justify-center py-7">
+				<div className="flex flex-wrap md:justify-evenly lg:justify-between gap-7 w-full">
 					<div className="lg:w-1/4 xl:w-1/6">
 						<img src="/images/logo-2.svg" alt="logo" />
 						<div className="flex flex-col gap-7 mt-5">

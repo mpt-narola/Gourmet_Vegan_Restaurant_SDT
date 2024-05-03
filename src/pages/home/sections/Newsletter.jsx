@@ -1,18 +1,18 @@
 const Newsletter = () => {
 	return (
-		<div className="mb-20 h-80 lg:h-96 xl:h-[28rem]">
+		<div className="mb-20 h-80 xl:h-96">
 			<div
-				className="text-white w-11/12 h-full max-w-[88rem] 2xl:max-w-[100rem] mx-auto flex items-center"
+				className="text-white h-full container w-11/12 sm:w-10/12 xl:w-10/12 mx-auto flex items-center"
 				style={{
 					background: "no-repeat left / cover url('/images/newsletter-bg.png')",
 					// backgroundSize: "100% 100vh",
 				}}
 			>
-				<div className="w-11/12 md:w-5/6 lg:w-[70%] xl:w-3/5 mx-auto text-center">
-					<h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-secondary">
+				<div className="w-11/12 md:w-5/6 lg:w-[70%] xl:w-1/2 mx-auto text-center">
+					<h2 className="text-3xl lg:text-4xl 2xl:text-[2.5rem] font-secondary">
 						Get Our Promo Code by Subscribing To Our Newsletter
 					</h2>
-					<div className="relative w-full sm:w-3/4 mx-auto my-5 md:my-10">
+					<div className="relative w-full sm:w-11/12 mx-auto my-5 md:my-10">
 						<input
 							type="text"
 							placeholder="Enter your email"

@@ -9,15 +9,15 @@ const Hero = () => {
 				// backgroundSize: "100% 100vh",
 			}}
 		>
-			<div className="w-11/12 max-w-[88rem] 2xl:max-w-[100rem] h-[calc(100vh-56px)] mx-auto flex items-center">
-				<div className="md:w-4/5 lg:w-3/5">
-					<h1 className="text-4xl lg:text-5xl xl:text-7xl font-secondary">
-						Welcome To The{" "}
-						<span className="text-3xl lg:text-4xl xl:text-5xl">
+			<div className="container w-11/12 sm:w-10/12 xl:w-10/12 h-[calc(100vh-56px)] mx-auto flex items-center">
+				<div className="md:w-4/5 lg:w-2/3 xl:w-3/5">
+					<h1 className="text-4xl lg:text-5xl xl:text-7xl tracking-tight font-secondary">
+						Welcome To The <br />
+						<span className="text-3xl lg:text-4xl tracking-normal xl:text-5xl">
 							Gourmet Vegan Restaurant
 						</span>
 					</h1>
-					<p className="my-12 xl:leading-8 max-w-2xl">
+					<p className="my-10 xl:leading-7 max-w-2xl">
 						Every university has a website or mobile ordering application that
 						provides information about the menus of university cafeterias,
 						franchise dining locations, and university-based dining spots.

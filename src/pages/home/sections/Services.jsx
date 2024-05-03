@@ -25,22 +25,22 @@ const Services = () => {
 
 	return (
 		<div className="w-full mt-32 sm:mt-0">
-			<div className="w-11/12 max-w-[88rem] 2xl:max-w-[100rem] mx-auto py-10 flex flex-col gap-10 items-center bg-primary text-white border-8 border-secondary relative">
-				<h2 className="text-3xl lg:text-4xl xl:text-5xl font-secondary">
+			<div className="container w-11/12 sm:w-10/12 xl:w-10/12 mx-auto py-10 flex flex-col gap-10 items-center bg-primary text-white border-8 border-white relative">
+				<h2 className="text-3xl lg:text-4xl 2xl:text-[2.5rem] font-secondary">
 					Our Best Services
 				</h2>
 				<div className="w-full flex items-center">
 					<button
 						className="absolute left-5 p-1 rounded-full"
 						onClick={() => {
-							handleHorizantalScroll(elementRef.current, 25, 100, -10);
+							handleHorizantalScroll(elementRef.current, 25, 110, -10);
 						}}
 						disabled={arrowDisable}
 					>
 						<GoChevronLeft fontSize={24} />
 					</button>
 					<div
-						className="flex gap-5 w-8/12 sm:w-10/12 mx-auto overflow-hidden"
+						className="flex gap-5 w-8/12 sm:w-9/12 lg:w-10/12 xl:11/12 mx-auto overflow-hidden"
 						ref={elementRef}
 					>
 						{servicesMenuList.map((item) => (
@@ -58,7 +58,7 @@ const Services = () => {
 					<button
 						className="absolute right-5 p-1 rounded-full"
 						onClick={() => {
-							handleHorizantalScroll(elementRef.current, 25, 100, 10);
+							handleHorizantalScroll(elementRef.current, 25, 110, 10);
 						}}
 					>
 						<GoChevronRight fontSize={24} />

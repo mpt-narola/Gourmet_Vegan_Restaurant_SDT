@@ -10,7 +10,7 @@ const FoodItemMenu = () => {
 				>
 					<div>
 						<p className="font-semibold">{item.name}</p>
-						<p>{item.description}</p>
+						<p className="text-xs">{item.description}</p>
 					</div>
 					<div className="font-semibold">{item.price}</div>
 				</div>
